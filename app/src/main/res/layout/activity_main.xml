@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make sure the device is charging in order for the job to be executed (Logs in console)"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/btnScheduleJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule job"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnCancelJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel job"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
